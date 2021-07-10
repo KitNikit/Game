@@ -64,12 +64,7 @@ function draw() {
 					yPos + bird.height >= pipe[i].y + pipeUp.height + gap)) ||
 			yPos + bird.height >= cvs.height - fg.height
 		) {
-<<<<<<< HEAD
-			// location.reload(true);
-
-=======
-// 			location.reload();
->>>>>>> ef2cdaa4a51a0741a69f74120e2013d9584ae8cc
+			// 			location.reload();
 			score = 0;
 			xPos = 10;
 			yPos = 150;
