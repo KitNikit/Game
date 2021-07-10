@@ -23,7 +23,7 @@ score_audio.src = 'audio/score.mp3';
 const gap = 150;
 
 //При нажатии на какую-либо кнопку
-document.addEventListener('keydown', moveUp);
+document.addEventListener('mousedown', moveUp);
 
 function moveUp() {
 	yPos -= 35;
